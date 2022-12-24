@@ -136,6 +136,23 @@ p {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* MEDIA QUERY */
+
+@media only screen and (max-width: 43.69em) {
+   body {
+    padding: 30px;
+  }
+
+  .col-1-of-3 {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+  }
+  .col-3-of-3 {
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+  }
+}
+
+
 @media only screen and (max-width: 18.75em) {
   body {
     padding: 10px;
